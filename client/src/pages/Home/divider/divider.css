@@ -1,0 +1,57 @@
+.divider {
+  padding: 2rem;
+  width: 100%;
+  height: 8rem;
+  background-color: var(--green);
+  color: white;
+}
+
+.divider p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.divider h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+@media (min-width: 768px) {
+  .divider p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  .divider h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 16rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .divider p {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+  .divider h2 {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+  .divider {
+    padding-left: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 22.8rem;
+  }
+}

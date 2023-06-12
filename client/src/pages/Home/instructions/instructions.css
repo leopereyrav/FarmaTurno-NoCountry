@@ -1,0 +1,59 @@
+.instructions {
+  width: 100%;
+  height: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instructions img {
+  margin: 0 auto;
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  object-fit: contain;
+}
+
+.instructions .tablet {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.instructions .desktop {
+  width: 0;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .instructions .mobile {
+    width: 0;
+    height: 0;
+  }
+  .instructions .desktop {
+    width: 0;
+    height: 0;
+  }
+  .instructions .tablet {
+    position: inherit;
+    width: 704px;
+    height: 1297px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .instructions .mobile {
+    width: 0;
+    height: 0;
+  }
+  .instructions .tablet {
+    width: 0;
+    height: 0;
+  }
+  .instructions .desktop {
+    width: 128rem;
+    height: 58.6rem;
+    margin-bottom: 10rem;
+  }
+}

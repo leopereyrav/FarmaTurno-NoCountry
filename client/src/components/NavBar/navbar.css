@@ -1,0 +1,176 @@
+.navbar {
+  border-bottom: 0.1em solid rgba(169, 165, 165, 0.37);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+.logo{
+  width: 141.8px!important;
+  height: 50px!important;
+  margin-left: 80px!important;
+}
+
+.txCategory {
+  position: relative;
+  left: 1.5rem; 
+  font-weight:500;
+  color: #111;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.txCategory1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100!important;
+  font-size: 16px;
+  line-height: 19px;
+}
+.soyFarmaciaTx{
+  margin-right:80px 	;
+}
+.acercaFarmTx{
+  margin-right:24px!important 	;
+  
+}
+.logoOffcanvas{
+  width:113.5px!important ;
+  height: 40px!important;
+  text-align: center;
+    margin-right: auto;
+    margin-left: 0.5rem;
+}
+
+
+
+
+@media (max-width: 990px){
+
+  .navbar{
+    height: 100%;
+  }
+  .navbar .navbar-toggler  {
+    order: -1;
+    /* height:32px ; */
+    /* width: 32px; */
+    border-color: white!important;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .navbar .navbar-brand {
+    text-align: center;
+    margin-right: auto;
+    margin-left: 0.5rem;
+  }
+  .logo{
+    margin-left: 10px!important;
+    /* height: 40px!important;
+    width: 113.5px!important; */
+  }
+  .logoOffcanvas{
+    width:113.5px ;
+    height: 50px!important;
+    order: 1;
+    margin-left: 16px;
+    
+  }
+  .offcanvas{
+    width:50%!important ;
+  }
+  .offcanvasBody{
+    width: 200px;
+    overflow-x: hidden;
+    padding-left: 0;
+  }
+  .offcanvasHeader{
+    width: 200px!important;
+  }
+  .txCategory1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100!important;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .acercaFarmTx{
+    margin-right:0!important 	;
+    width: fit-content;
+    
+  }
+  .soyFarmaciaTx{
+    margin-right:0px 	;
+    width: fit-content;
+  }
+}
+
+
+@media (max-width:400px){
+
+  .navbar{
+    height: 100%;
+  }
+  .navbar .navbar-toggler  {
+    order: -1;
+    /* height:32px ; */
+    /* width: 32px; */
+    border-color: white!important;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  
+   .navbar-brand {
+    text-align: center;
+    margin-right: auto;
+    /* margin-left: 0.5rem; */
+    width: 50%!important;
+  } 
+  .logo{
+    margin-left: 0px!important;
+    height: 40px!important;
+    width: 90px!important;
+  }
+  .logoOffcanvas{
+    width:113.5px ;
+    height: 50px!important;
+    order: 1;
+    margin-left: 16px;
+    
+  }
+  .offcanvas{
+    width:80%!important ;
+  }
+  .offcanvasBody{
+    width: 100%;
+    overflow-x: hidden;
+    padding-left: 0;
+  }
+  .offcanvasHeader{
+    width: 200px!important;
+  }
+  .txCategory1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100!important;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .acercaFarmTx{
+    margin-right:0!important 	;
+    width: fit-content;
+    
+  }
+  .soyFarmaciaTx{
+    margin-right:0px 	;
+    width: fit-content;
+  }
+}

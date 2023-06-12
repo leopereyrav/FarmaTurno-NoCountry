@@ -1,0 +1,72 @@
+.home {
+  width: 100%;
+  overflow-x: hidden;
+}
+.home .welcomeSection {
+  width: 100%;
+}
+.home .welcomeSection .mensajeBienvenida {
+  padding: 2rem;
+  padding-left: 4rem;
+}
+
+.home .welcomeSection .mensajeBienvenida p:nth-child(1) {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.home .welcomeSection .mensajeBienvenida p:nth-child(2) {
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 3.4rem;
+  line-height: 2.8rem;
+  color: var(--green);
+}
+
+@media (min-width: 768px) {
+  .home .welcomeSection .mensajeBienvenida p:nth-child(1) {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+
+  .home .welcomeSection .mensajeBienvenida p:nth-child(2) {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 7rem;
+    line-height: 5.7rem;
+    color: var(--green);
+  }
+}
+
+@media (min-width: 1440px) {
+  .home .welcomeSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 37.5rem;
+  }
+
+  .home .welcomeSection .mensajeBienvenida {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: flex;
+    width: 55%;
+    margin-left: 6rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home .welcomeSection .mensajeBienvenida p:nth-child(1) {
+    font-weight: 500;
+    font-size: 5.8rem;
+    line-height: 6.8rem;
+  }
+
+  .home .welcomeSection .mensajeBienvenida p:nth-child(2) {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 8.8rem;
+    line-height: 6.8rem;
+    color: var(--green);
+  }
+}

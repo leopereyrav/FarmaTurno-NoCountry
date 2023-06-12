@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  --green: #008c73;
+  --gray: #676767;
+}

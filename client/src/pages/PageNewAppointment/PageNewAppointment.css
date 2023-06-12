@@ -1,0 +1,118 @@
+/* *{
+  font-family: 'Roboto';
+} */
+
+.general-new {
+  padding: 0rem;
+  height: 100%;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-rows: 7.5rem auto;
+  row-gap: 2rem;
+  overflow-y: scroll;
+}
+.body-new {
+  grid-template-rows: 15% 85%;
+}
+.arrow-new {
+  margin: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.margin {
+  margin: 2rem;
+}
+.titulo-new {
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+.texto-new {
+  font-size: 1.5rem;
+  font-family: 'Roboto';
+}
+
+.body-main-new {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: center;
+  /* gap: 2rem; */
+}
+
+.img-new {
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
+  /* width: 382.01px; */
+  height: 30rem;
+  left: 30rem;
+  top: calc(50% - 360px / 2);
+  left: 519px;
+  top: 247px;
+  padding: 24px;
+  gap: 50px;
+  padding: 24px;
+  gap: 50px;
+
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+@media (max-width: 850px) {
+  .general-new {
+    padding: 0rem 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20%, 80%;
+    overflow-y: scroll;
+  }
+  .arrow-new {
+    height: min-content;
+  }
+  .body-new {
+    margin-top: 0;
+  }
+  .body-main-new {
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 2rem; */
+  }
+  .margin {
+    margin: 1em;
+  }
+  .titulo-new {
+    font-size: 1.5rem;
+  }
+  .texto-new {
+    font-size: 1.1rem;
+  }
+  .img-new {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    /* width: 382.01px; */
+    height: 26rem;
+    left: 30rem;
+    top: calc(50% - 360px / 2);
+    left: 519px;
+    top: 247px;
+    padding: 24px;
+    gap: 50px;
+    padding: 24px;
+    gap: 50px;
+
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
+}
+
+@media (max-width: 430px) {
+  .general-new {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* width: 360px; */
+    padding: 0rem;
+  }
+}

@@ -1,0 +1,104 @@
+.container_modal_confirm{
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1px);
+}
+.container_modal_confirm > article {
+    width: min(400px,90%);
+    height: min(500px,60%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 10% 20% 30% 25%;
+    background-color: white;
+}
+.alert_display{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline:auto ;
+}
+.logo{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.alert_display > button {
+    width: fit-content;
+    height: fit-content;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 3px 6px 3px 6px;
+}
+.message_alert{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.data_turn{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    /* justify-content: center; */
+    align-items: center;
+    /* outline: 1px solid black; */
+    margin: auto;
+    font-size: 1.5rem;
+}
+.describe_data{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    padding: 2rem;
+    font-size: medium;
+}
+.btn_container{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon_alert{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.check{
+    height: 40%;
+    width: fit-content;
+    background: none;
+    font-size: medium;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid #008C73;
+    color: #008C73;
+    border-radius: 5px;
+}
+.came_back{
+    height: 40%;
+    width: fit-content;
+    background-color: #008C73;
+    font-size: medium;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0% 2% 0% 2%;
+}

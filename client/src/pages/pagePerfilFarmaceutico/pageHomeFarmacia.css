@@ -1,0 +1,106 @@
+.homeFarmacia1 {
+  width: auto !important;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 90%;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.bodyHomeFarmacia1 {
+  width: 100% !important;
+  background-color: white;
+  padding: 0;
+}
+.divTituloFarmacia1 {
+  height: 100px;
+  width: auto;
+  background-color: #008c73;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo1 {
+  font-size: 28px;
+}
+.texto1 {
+  font-size: 18px;
+}
+.divImagen1 {
+  height: fit-content;
+}
+
+.imgHomeFarmacia {
+  width: 25%;
+  height: 25%;
+}
+
+
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 780px) {
+  .divTituloFarmacia1 {
+    height: 100px;
+    width: auto;
+    background-color: #008c73;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  .imgHomeFarmacia1 {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .divTituloFarmacia1 {
+    height: 50px;
+    width: auto;
+    background-color: #008c73;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  .imgHomeFarmacia1 {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+}
+
+@media (max-width: 200px) {
+  .divTexto1 {
+    width: 100%;
+  }
+  /* .mi-tabla-responsive {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .mi-tabla-responsive > div {
+      flex: 0 0 100%;
+    }
+  
+    .mi-tabla-responsive > div:nth-child(1),
+    .mi-tabla-responsive > div:nth-child(7) {
+      flex: 0 0 30%;
+    } */
+}

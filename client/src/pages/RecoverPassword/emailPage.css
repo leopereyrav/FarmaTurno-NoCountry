@@ -1,0 +1,77 @@
+.emailPage {
+  padding: 4rem;
+}
+
+.emailPage .title_subtitle__email div {
+  display: flex;
+  width: 100%;
+}
+
+.emailPage .title_subtitle__email div img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.emailPage .title_subtitle__email div h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.emailPage .title_subtitle__email p {
+  margin-top: 4rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.emailPage .emailContainer__email {
+  margin: 4rem auto 0 auto;
+  width: 60%;
+  min-width: 30.4rem;
+  min-width: 32rem;
+  height: 30rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+}
+
+.emailPage .emailContainer_title__email {
+  padding: 2rem;
+  border-bottom: 1px solid var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.emailPage .form-email {
+  position: relative;
+  padding: 2rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailPage .form-email label {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.emailPage .form-email input {
+  height: 3.8rem;
+  font-size: 1.6rem;
+}
+
+.emailPage .invalid-feedback {
+  font-size: 1.4rem;
+}
+.emailPage .form-email button {
+  margin-top: 3rem;
+  bottom: 3rem;
+  height: 3.7rem;
+  font-size: 1.6rem;
+}

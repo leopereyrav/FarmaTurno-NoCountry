@@ -1,0 +1,75 @@
+.img-no-appointment{
+    width: 39.208rem;
+    height: 28.875rem;
+    /* margin-top: 1rem; */
+}
+
+
+.textContainer {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 7%;
+  }
+  .description {
+    font-size: 1.5rem;
+    max-width: 32.625rem;
+    height: 5.375rem;
+    margin-bottom: 20%;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  /* .divBtn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+  
+  .btnInicio {
+    background-color: #008c73;
+    border-color: #008c73;
+    border-radius: 0.25rem;
+    width: 25.875rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .btnInicio:hover {
+      background-color:#008c73;
+      border-color: #008c73;
+    }
+
+    @media (max-width: 380px) {
+        .btnInicio {
+          /* font-size: 14px; */
+          width: 22.875rem;
+    height: 3rem;
+          
+        }
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 7%;
+          }
+          .description {
+            font-size: 1.25rem;
+            max-width: 32.625rem;
+            height: 5.375rem;
+            margin-bottom: 10%;
+            font-style: normal;
+            font-weight: 400;
+            color: #000000;
+          }
+    }

@@ -1,0 +1,205 @@
+.pharmacy-owner {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.pharmacy-owner form {
+  display: flex;
+  flex-direction: column;
+}
+.pharmacy-owner h2 {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+.pharmacy-owner p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 2.7rem;
+  margin-top: 1rem;
+}
+
+.pharmacy-owner .label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.pharmacy-owner .custom-row {
+  margin-bottom: 1.6rem;
+  align-items: center;
+}
+
+.pharmacy-owner .custom-row input {
+  widht: 100%;
+  height: 3.8rem;
+  margin-left: 0.7rem;
+  font-size: 1.6rem;
+}
+
+.pharmacy-owner button {
+  width: 15.8rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  align-self: center;
+}
+.pharmacy-owner img {
+  widht: 0;
+  height: 0;
+}
+.pharmacy-owner .invalid-feedback {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .pharmacy-owner {
+    width: 100%;
+  }
+
+  .pharmacy-owner .ownerTitle_container h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    padding-bottom: 2rem;
+  }
+  .pharmacy-owner .ownerTitle_container p {
+    width: 61.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+  .pharmacy-owner {
+    width: 100vw;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .pharmacy-owner form {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: left;
+    grid-template-columns: 25.3rem 25.3rem 1fr;
+    grid-template-rows: 6.5rem 6.5rem 25rem;
+    gap: 4rem;
+  }
+  .pharmacy-owner .row1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .pharmacy-owner .row2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .pharmacy-owner .row3 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .pharmacy-owner img {
+    widht: inherit;
+    height: inherit;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+  }
+  .pharmacy-owner button {
+    width: 31.5rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    margin: 0 auto;
+  }
+  .pharmacy-owner img {
+    justify-self: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    width: 248px;
+    height: 254px;
+  }
+  .pharmacy-owner .invalid-feedback {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pharmacy-owner {
+    padding-left: 8rem;
+    position: relative;
+    display: grid;
+    grid-template-rows: 8rem auto;
+  }
+  .pharmacy-owner .ownerTitle_container {
+    padding-left: 3rem;
+  }
+  .pharmacy-owner .ownerTitle_container h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    padding-bottom: 2rem;
+  }
+  .pharmacy-owner .ownerTitle_container p {
+    width: 61.6rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .pharmacy-owner form {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 25.4rem;
+    grid-template-rows: repeat(3, 6.9rem) 10rem;
+    gap: 4rem;
+  }
+  .pharmacy-owner .row2 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  .pharmacy-owner .row3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  .pharmacy-owner button {
+    width: 31.5rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    margin: 4rem auto 0 auto;
+  }
+  .pharmacy-owner .label {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .pharmacy-owner .custom-row input {
+    height: 3.8rem;
+    width: 41.3rem;
+  }
+  .custom-row input[type='number']::-webkit-inner-spin-button,
+  .custom-row input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .custom-row input[type='number'] {
+    -moz-appearance: textfield; /* Mostrar el campo de entrada numérica como un campo de texto normal en Firefox */
+  }
+  .pharmacy-owner .custom-row .invalid-feedback {
+    font-size: 1.4rem;
+  }
+  .pharmacy-owner img {
+    position: absolute;
+    top: -615px;
+    right: 82px;
+    width: 489px;
+    height: 502px;
+  }
+  .pharmacy-owner .invalid-feedback {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}

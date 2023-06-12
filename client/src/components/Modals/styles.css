@@ -1,0 +1,47 @@
+.modal_container{
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    font-size: large;
+}
+.modal_container > article {
+    width: min(400px,80%);
+    height: min(250px,50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 55% 20%;
+    background-color: white;
+}
+.alert_name{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: large;
+}
+.body_info{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+}
+.close_btn{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 2% 4%;
+    color: white;
+    border: none;
+    background-color: #008C73;
+    border-radius: 10px;
+}

@@ -1,0 +1,115 @@
+.adheridasFarmacia {
+  width: 100%;
+  height: 14rem;
+  padding: 2rem;
+  background: rgba(0, 140, 115, 0.1);
+  border-radius: 10px;
+}
+
+.adheridasFarmacia h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+}
+
+.adheridasFarmacia .farmaciaBotom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.adheridasFarmacia .farmaciaBotom button {
+  width: 191px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.adheridasFarmacia .farmaciaBotom .cruzVerde {
+  width: 6.8rem;
+  height: 6.8rem;
+}
+
+.adheridasFarmacia .farmaciaBotom button img {
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .adheridasFarmacia {
+    height: 25rem;
+  }
+
+  .adheridasFarmacia h2 {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+  }
+
+  .adheridasFarmacia .farmaciaBotom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .adheridasFarmacia .farmaciaBotom .cruzVerde {
+    width: 119.9px;
+    height: 120px;
+  }
+  .adheridasFarmacia .farmaciaBotom button {
+    margin-left: 5.7rem;
+    width: 23rem;
+    height: 4.8rem;
+  }
+
+  .adheridasFarmacia .farmaciaBotom button img {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .adheridasFarmacia {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    height: 37.5rem;
+  }
+  .adheridasFarmacia h2 {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+
+  .adheridasFarmacia .farmaciaBotom {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .adheridasFarmacia .farmaciaBotom .cruzVerde {
+    margin-left: 20rem;
+    width: 179.9px;
+    height: 180px;
+  }
+  .adheridasFarmacia .farmaciaBotom button {
+    margin-left: 15rem;
+    width: 23rem;
+    height: 4.8rem;
+  }
+
+  .adheridasFarmacia .farmaciaBotom button img {
+    margin-right: 1rem;
+  }
+}
